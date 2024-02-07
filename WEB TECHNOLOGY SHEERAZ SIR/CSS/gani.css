@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: teal;
+}
+
+.box{
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+
+    
+}
+.con{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}

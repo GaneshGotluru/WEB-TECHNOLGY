@@ -1,0 +1,29 @@
+.box{
+    border: solid 3px black;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sqr{
+    border: solid 3px black;
+    height: 100px;
+    width: 100px;
+}
+
+.box1{
+    border: solid 3px black;
+    height: 200px;
+    width: 200px;
+
+
+}
+.sqr1{
+    border: solid 3px black;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}

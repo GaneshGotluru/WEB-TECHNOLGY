@@ -1,0 +1,30 @@
+.container{
+    border: solid 2px red;
+    height: 200px;
+    width: 100px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.box{
+    color: red;
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    margin: 100px 200px 50px 300px;
+    /*top right bottom left*/
+    /**/
+
+}
+.box1{
+    border: solid 3px black;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    font-size: larger;
+
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}

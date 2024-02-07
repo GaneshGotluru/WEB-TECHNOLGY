@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    border: solid 1px;
+    height: 75px;
+    width: 100%;
+    background-color: #eeebec;
+
+    
+    display: flex;
+}
+.logo{
+    width: 30%;
+    height: 75px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    width: 70%;
+    height: 75px;
+    margin-top: 30px;
+    
+    
+}
+.add ul{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.cir1 , .cir2{
+    border: solid 1px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+    
+}
+
+.cir1{
+    background-color: red;
+
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.cir2{
+    background-color: black;
+    position: absolute;
+    
+    left: 20px;
+
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gg{
+    position: relative;
+    top: 10px;
+}

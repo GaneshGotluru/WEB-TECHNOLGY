@@ -1,0 +1,33 @@
+.name{
+    margin: 200px 400px;
+    font-weight: bolder;
+    font-size: 80px;
+
+    animation-name: rtt;
+    animation-duration: 5s;
+}
+@keyframes rtt{
+    50%{
+        /* transform: rotate(30deg); */
+        transform: scale(.0) rotate(30deg);
+    }
+    
+}
+body{
+    background-color: orange;
+}
+.bx{
+    border: solid 1px;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(blue 30%,black);
+
+    animation-name: ra;
+    animation-duration: 15s;
+}
+@keyframes ra {
+    50%{
+        transform: scale(.4) rotate(5turn);
+    }
+    
+}

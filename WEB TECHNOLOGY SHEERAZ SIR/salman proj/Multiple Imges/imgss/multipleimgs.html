@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./img/1.jpg" alt="" onclick="changeImage()">
+
+    <script>
+        let urls=['./img/c2.jfif','./img/c3.jfif','./img/IMG_20211210_184716.jpg','./img/s1.jpg','./img/SAVE_20230105_214802.jpg','./img/SAVE_20230228_164611.jpg']
+
+        let img=document.querySelector('img')
+        let changeImage=()=>{
+            let random_index=Math.floor(Math.random()*5)
+            img.src=urls[random_index]
+        }
+    </script>
+</body>
+</html>

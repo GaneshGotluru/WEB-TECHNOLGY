@@ -1,0 +1,44 @@
+.box{
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+
+    position: fixed;
+    top: 0px;
+    left: 400px;
+}
+.box1{
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+
+    position: sticky;
+    top: 0px;
+
+}
+
+.rect{
+    border: solid 2px black;
+    height: 200px;
+    width: 400px;
+    background-color: chocolate;
+
+    position: relative;
+    z-index: -1;
+}
+.crl{
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+    
+}

@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    border: solid 1px;
+    height: 80px;
+    width: 100vw;
+    background-color:black;
+    
+    display: flex;
+
+
+    position: fixed;
+    top: 0px;
+}
+.nav1{
+    color: white;
+    margin: auto;
+    /* border: solid 1px red; */
+    height: 70px;
+    width: 50%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2{
+    margin: auto;
+    /* border: solid 1px gray; */
+    height: 70px;
+    width: 50%;
+
+}
+
+.nav2 ul,a{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdy{
+    margin-top: 80px;
+    border: solid 1px;
+    background-color: rgba(0, 0, 0, 0.766);
+
+
+    display: flex;
+    justify-content: center;
+
+}
+.intro{
+    margin: 10px;
+    /* border: solid 1px white; */
+    height: 400px;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.det{
+    color: white;
+}
+.ig{
+    margin: 10px;
+    /* border: solid 1px white; */
+    height: 400px;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box a{
+    color: orange;
+}
+.ganeshimg img{
+    /* border: solid 2px; */
+    border-radius: 15px;
+    height: 300px;
+    width: 200px;
+
+    animation-name: igrot;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes igrot {
+    50%{
+        transform: scale(.4) rotate(10deg)
+    }
+    
+}
+.educ{
+    border-width: 0px;
+    background-color:  rgba(0, 0, 0, 0.766);
+    display: flex;
+    justify-content: center;
+}
+.heading h1{
+    background-color:  rgba(0, 0, 0, 0.766);
+    text-align: center;
+    color: white;
+}
+table{
+ 
+    color: white;
+}
+td{
+    text-align: center;
+}
+
+
+
+.skill{
+  
+    background-color:  rgba(0, 0, 0, 0.766);
+    display: flex;
+    justify-content: center;
+}
+.sal{
+    margin: 20px;
+    /* border: solid 1px yellow; */
+    /* height: 300px; */
+    width: 300px;
+    /* display: flex;
+    justify-content: center; */
+
+
+}
+/* .sal:hover{
+    animation-name: skillrot;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+} */
+@keyframes skillrot {
+    50%{
+        transform: rotate(20deg);
+    }
+    
+}
+.sal img{
+    height: 100px;
+    width: 100px;
+}
+
+.cont h3{
+    color: orange;
+    text-align: center;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    /* text-align: center; */
+    color: white;
+}
+
+ul li{
+    list-style-position: inside;
+}
+ol li{
+    list-style-position: inside;
+}
+
+
+
+.projects{
+    background-color: rgba(0, 0, 0, 0.766);
+    color: white;
+}
+.projects ol{
+    text-align: center;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+.divd{
+
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    margin: 20px;
+    /* border: solid 2px; */
+    height: 200px;
+    width: 200px;
+}
+
+.box1 img{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+
+.social{
+    /* border: solid 2px red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* background-color:  rgba(0, 0, 0, 0.766); */
+
+}
+.heading h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+.s1 img{
+    margin: 10px;
+    /* border: solid 1px orange; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.d1{
+    margin: 20px;
+    /* border: solid 1px lightblue; */
+    height: 400px;
+    width: 500px;
+    
+    /* background-color:  rgba(0, 0, 0, 0.766); */
+}
+
+.main{
+
+    background-color:  rgba(0, 0, 0, 0.766);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tele{
+    
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tele input{
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+
+}
+.tele textarea{
+    margin: 10px;
+    width: 300px;
+
+}
+.teleg{
+    /* border:solid 1px red; */
+    color: white;
+    height: 40px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inser1{
+    /* border: solid 1px blue; */
+    height: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.inser1 img{
+    /* border: solid 1px blue; */
+    height: 40px;
+    border-radius: 10px;
+    /* width: 30%; */
+   
+}
+.inser2{
+    
+    /* border: solid 1px orange; */
+    height: 40px;
+    width: 70%;
+    font-size: 1px;
+    display: flex;
+    justify-content: start;
+
+}
+.inser2 button{
+    background-color: lavender;
+    border-width: 0px;
+    font-size: 20px;
+}
+
+
+input::placeholder{
+    text-indent: 10px;
+}
+textarea::placeholder{
+    text-indent: 10px;
+}
+input:hover{
+    color: blueviolet;
+    transform: scale(1.1);
+}
+textarea:hover{
+    transform: scale(1.1);
+}

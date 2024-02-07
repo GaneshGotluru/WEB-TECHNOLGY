@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+}
+
+.fix{
+    border: solid 2px;
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    
+
+    position: fixed;
+    top: 0px;
+}
+
+p{
+    border: solid;
+    margin: 50px;
+    text-align: justify;
+    
+}
+.box{
+    border: solid 3px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+    position: sticky;
+    top: 0px;
+
+}
+.rec{
+    border: solid 3px;
+    height: 200px;
+    width: 300px;
+    background-color: orchid;
+    overflow: auto;
+
+    position: relative;
+    left: 40px;
+    z-index: -1;
+}
+.cl{
+    border: solid 3px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    position: absolute;
+    right: 50px;
+}

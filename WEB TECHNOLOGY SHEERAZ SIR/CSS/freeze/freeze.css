@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+.head{
+    border: solid 2px;
+    height: 100px;
+    width: 100%;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    border-bottom-style: dashed;
+    color:black;
+    background-color: wheat;  
+    
+
+}
+.nav{
+    border: solid 2px;
+    height: 150px;
+    width: 100%;
+    background-color: wheat;
+    
+    
+
+    position: absolute;
+    left: 0px;
+
+}
+.body{
+    margin: 10px;
+}

@@ -1,0 +1,61 @@
+.con{
+    border: solid 2px;
+    height: 150px;
+    width: 150px;
+    background: red;
+
+    animation-name: shapes;
+    animation-duration: 1s;
+    animation-iteration-count: 5s;
+}
+@keyframes shapes {
+    0%{
+        border-radius: 0%;
+    }
+    50%{
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 0%;
+    }
+}
+.ss{
+    border: solid 2px;
+    height: 150px;
+    width: 150px;
+    background:blue;
+
+    animation-name: sss;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+
+@keyframes sss {
+    0%{
+    height: 150px;
+    width: 150px;
+    }
+    25%{
+        border-radius: 0%;
+        height: 150px;
+        width: 300px;
+    }
+    50%{
+        border-radius: 50%;
+        /* height: 150px; */
+        width: 300px;
+
+        
+    }
+    75%{
+        /* height: 150px; */
+        width: 150px;
+        border-radius: 50%;
+    }
+    100%{
+        height: 150px;
+        width: 150px;
+        
+    }
+    
+}

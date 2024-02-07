@@ -1,0 +1,94 @@
+.box1{
+    border: solid 2px;
+    height: 200px;
+    width: 200px;
+    background: blue;
+    
+    animation-name: run;
+    animation-duration: 10s;
+
+
+}
+.box2{
+    border: solid 2px;
+    height: 100px;
+    width: 100px;
+    background: yellow;
+
+
+}
+.box3{
+    border: solid 2px;
+    height: 50px;
+    width: 50px;
+    background: blue;
+    margin: 20px 30px;
+    background: radial-gradient(red,yellow,green);
+
+    animation: rr;
+    animation-duration: 5s;
+}
+ 
+
+
+.box{
+    border: solid 2px;
+    height: 100px;
+    width: 50px;
+    margin: 100px 500px;
+    background: radial-gradient(red,yellow,green);
+
+    animation: rr;
+    animation-duration: 5s;
+}
+
+@keyframes rr {
+    50%{
+        /* transform: rotate(5turn); */
+        transform: scale(2);
+    }    
+}
+.box1,.box2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1, .box2, .box3{
+    animation-name: run;
+    animation-duration: 10s;
+}
+.box2{
+    animation-delay: 10s;
+}
+.box3{
+    animation-delay: 20s;
+}
+@keyframes run {
+    0%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        position: relative;
+        top: 0px;
+        left: 400px;
+    }
+    50%{
+        position: relative;
+        top: 300px;
+        left: 400px;
+    }
+    75%{
+        position: relative;
+        top: 300px;
+        left: 0px;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+}

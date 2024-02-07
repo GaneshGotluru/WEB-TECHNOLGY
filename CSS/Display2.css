@@ -1,0 +1,9 @@
+.box{
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+
+    display: inline-block;
+    /*block level is toget the o/p is next level but it can be converted into inline level by using display:inline-block
+    block level occupy totaly width then it can be converted into inline it gives some space in boxes*/
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: green;
+}
+button{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 200px;
+    border: solid 2px yellow;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: orchid;
+    transition: all 5s;
+}
+button:hover{
+    border-color: black;
+    
+    background-color: orange;
+    transform: scale(1.5) rotate(30deg);
+    color: black;
+}

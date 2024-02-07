@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+.fix{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+
+    border: solid 2px black;
+    height: 50px;
+    width: 100%;
+    background-color: beige;
+    
+
+    position: fixed;
+    top: 0px;
+}
+p{
+    text-align: justify;
+    text-indent: 70px;
+    padding: 30px;
+    margin: 50px;
+}
+.sty{
+    border: solid 2px black;
+    height: 150px;
+    width: 200px;
+    background-color: rosybrown;
+
+    position: sticky;
+    top: 0px;
+}

@@ -1,0 +1,21 @@
+.text{
+    text-align: justify;/* it is all sides are equally */
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-indent: 50px; /* it gives the starting paragraph space*/
+}
+.font{
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    text-align: justify;
+
+}
+h1{
+   text-align: center;
+   
+   color: rgb(25, 18, 4);
+   text-shadow: 20px 15px 5px blue; /* x axis  y-axis  blur color  */
+}

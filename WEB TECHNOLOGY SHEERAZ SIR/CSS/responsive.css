@@ -1,0 +1,30 @@
+
+@media screen and (min-width:200px) and (max-width:400px) {
+
+    body{
+        background-color: red;
+    }
+    input{
+        height: 30px;
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width:401px) and (max-width:500px) {
+    body{
+        background: blue;
+    }
+    .hed{
+        font-size: 40px;
+
+    }
+    input{
+        height: 30px;
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+}

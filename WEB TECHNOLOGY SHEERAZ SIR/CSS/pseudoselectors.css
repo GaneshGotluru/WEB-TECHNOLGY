@@ -1,0 +1,193 @@
+button{
+    display: block; 
+    /* converting from inline element to block level element */
+    margin: auto;
+
+    height: 30px;
+    width: 200px;
+    background: white;
+    border: solid 2px blue;
+    color: blue;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 3s;
+    font-size: 15px;
+}
+button:hover{
+    background: blue;
+    color:white;
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.5); /*animating*/
+    
+}
+a{
+    display: block; 
+    /* converting from inline element to block level element */
+    margin: auto;
+
+    height: 30px;
+    width: 200px;
+
+    border: solid 2px blue;
+    border-radius: 10px;
+    text-decoration: none;
+   
+
+
+    display: flex;
+    justify-content: center; /*horizontal Center*/
+    align-items: center; /* vertical center*/
+
+
+    transition: all 3s;
+    font-size: 15px;
+
+ 
+}
+a:hover{
+    background: blue;
+    color:white;
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.5); /*animating*/
+}
+a:active , button:active{
+    color: yellow;
+    border: solid 2px yellow;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+input{
+    height: 30px;
+    width: 300px;
+
+    display: block;
+    margin:  10px auto;
+    border: solid 2px black;
+    border-radius: 10px;
+    background: black;
+    color: yellow;
+}
+input::placeholder{
+    text-align: center;
+    color: skyblue;
+}
+input:focus{
+    background: greenyellow;
+    color: blue;
+    outline: none;
+
+}
+p{
+    text-indent: 100px;
+    font-size: 25px;
+    text-align: justify;
+}
+p::first-line{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+p::first-letter{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+}
+
+p::selection{
+    background: black;
+    color: brown;
+    
+}
+
+/* --------------M P Code  ------------------- */
+
+
+button{
+
+    display: block;/*converting from inline level to block line level element*/
+    margin: auto;
+    height: 30px;
+    width: 200px;
+    background: white;
+    border: solid 1px blue;
+    color: blue;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 2s;
+    
+    }
+    button:hover{
+        background: blue;
+        color: antiquewhite;
+        box-shadow: 5px 5px 5px black;
+        transform: scale(1.5);
+    }
+    a{
+        display: block;
+        align-items: center;
+    margin: auto;
+    text-decoration: none;  
+    display:flex;
+    justify-content: center;
+    height: 30px;
+    width: 200px;
+    background: white;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 2s;
+    font-family: sans-serif;
+    
+    
+    }
+    a:hover{
+        
+        color: antiquewhite;
+        box-shadow: 5px 5px 5px black;
+        transform: scale(1.5);
+    }
+    a:active{
+        color: green;
+        border: solid 1px green;
+        box-shadow: 5px 5px 5px black;
+    }
+    input{ 
+        height: 30px;
+        width: 300px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+        border: solid 1px black;
+        color: aquamarine;
+    
+    }
+    input::placeholder{
+        text-align: center;
+        color: chocolate;
+    }
+    input:focus{
+        background-color: chocolate;
+        color: crimson;
+        outline: none;
+    }
+    p{
+        font-size:25px;
+        text-indent: 100px;
+        text-align:justify;
+    }
+    p::first-line{
+        color: brown;
+        font-weight: bold;
+        text-decoration: dashed;
+    }
+    p::first-letter{
+        font-size: 50px;
+        color: tomato;
+        font-style: normal;
+    }
+    p::selection{
+        background:rgb(210, 125, 14);
+        color: cornflowerblue;
+    }
+    

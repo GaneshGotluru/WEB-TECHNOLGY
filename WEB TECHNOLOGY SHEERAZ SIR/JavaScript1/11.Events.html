@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Demo on Events</h1>
+    <button onclick="console.log('Hai')">Click Here</button>
+
+    <button ondblclick="console.log('Bye')">Click double</button>
+
+    <script src="./11.Events.js"></script>
+
+    <h3>Clicking Events</h3>
+
+    <button onclick="demo()">
+        Single Click
+    </button>
+
+    <button ondblclick="doubleClick()">
+        Double Click
+    </button>
+
+
+    <h3>Display Name</h3>
+    <button  onclick="fullName()">Click Here to Enter Name</button>
+
+    <!-- <button onclick="addNum()">
+        Add Nums
+    </button> -->
+
+    <button onclick="num()">adding </button>
+
+    <button onclick="evevOdd()">evevOdd</button>
+
+    <button onclick="both()">Both ways</button>
+
+    <h3>Keyboard Events</h3>
+    <h4>onkeydown</h4>
+    <input type="text" placeholder="on key down" onkeydown="key1()">
+
+    <h4>onkeypress</h4>
+    <input type="text" placeholder="on key press" onkeypress="key2()">
+
+    <h4>onkeyup</h4>
+    <input type="text" placeholder="on key up" onkeyup="key3()">
+
+
+    <br><br><br>
+    <div>
+        <img src="../PROJECTS/NETFLIX/IMAGES/cart.png" alt="" width="200px" onmouseover="MouseEvent()">
+    </div>
+</body>
+</html>

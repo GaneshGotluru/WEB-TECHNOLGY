@@ -1,0 +1,13 @@
+.con{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.box{
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+    
+    
+}

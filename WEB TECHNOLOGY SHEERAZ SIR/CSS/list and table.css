@@ -1,0 +1,22 @@
+ul{
+    /* list-style-type: lower-roman; */
+    list-style-position: inside;
+    /* list-style-image: url(./freeze/img/logo.png); */
+    list-style-image: radial-gradient(red,yellow,orange);
+}
+table{
+    height: 200px;
+    width: 400px;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+th{
+    color: brown;
+}
+tr :nth-child(even){
+    background: yellow;
+}
+/* tr :nth-child(even) it is giving colum wise */
+/* tr:nth-child(even) it is giving row wise ( here give some space)*/

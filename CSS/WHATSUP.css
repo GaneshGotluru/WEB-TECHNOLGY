@@ -1,0 +1,35 @@
+.con{
+    border: solid 2px black;
+    height: 100px;
+    width: 450px;
+    background-color: teal;
+
+    position: fixed;
+    top: 0px;
+    left: 400px;
+
+
+
+}
+.con1{
+    border: solid 2px black;
+    height: 150px;
+    width: 450px;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+   
+    position: sticky; 
+    top: 10px;
+    left: 0px;
+
+
+}
+.ig{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.tel{
+    color: white;
+}

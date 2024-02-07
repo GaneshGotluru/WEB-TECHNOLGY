@@ -1,0 +1,14 @@
+.hardcode{
+    color: red;
+    background-color: yellow;
+    font-style: italic;
+}
+
+.hexa{
+    color: #f3bfb6;
+    background-color: #8c9f3e;
+}
+.decimal{
+    color: rgb(217, 141, 141);
+    background-color: rgb(93, 116, 131);
+}

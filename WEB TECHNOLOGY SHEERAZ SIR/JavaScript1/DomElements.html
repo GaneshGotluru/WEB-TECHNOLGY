@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./DomElements.css">
+</head>
+<body>
+    <button onclick="demo()" ondblclick="doubleclick()">
+        Click Here
+    </button>
+
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">
+
+            <img src="../CSS/freeze/img/logo.png" alt="">
+        </div>
+    </div>
+    <hr>
+
+    <h1>Forms</h1>
+    <form onsubmit="printdata(event)">
+        <input type="text" name="fnm" placeholder="Enter First Name">
+        <input type="text" name="lnm" placeholder="Enter Last Name">
+
+
+        <input type="submit">
+    </form>
+
+
+    <h2 id="res"></h2>
+
+    
+    <h1>Design a Background Color using Normal Way</h1>
+
+    <button onclick="colorr()" onclick="hexa()" onclick="rgb()">
+        change Background Color
+    </button>
+
+    <!-- <h1>Design a Background Color using Hexa Decimal Way</h1>
+
+    <button onclick="hexa()">
+        Hexa Decimal Way
+    </button> -->
+
+<!--     
+    <h1>Design a Background Color using rgb   Way</h1>
+
+    <button onclick="rgb()">
+        RGB Way
+    </button> -->
+
+    <!-- <h1>Addition of Two Numbers</h1>
+    <input type="text" name="addition" placeholder="">
+    <h1 class="add"></h1> -->
+
+    <br><br>
+    <button onclick="displayColor()">
+        Different code sir say
+    </button>
+
+
+    <h2>Display The colors in Table</h2>
+
+    <button onclick="displayColor()">
+        Click Here
+    </button>
+
+    <table border="2px">
+        <tr>
+            <td class="r1">red</td>
+            <td class="b1">blue</td>
+        </tr>
+        <tr>
+            <td class="r2">orange</td>
+            <td class="b2">yellow</td>
+        </tr>
+        <tr>
+            <td class="r3">green</td>
+            <td class="b3">black</td>
+        </tr>
+    </table>
+
+
+    <script src="./DomElements.js"></script>
+</body>
+</html>

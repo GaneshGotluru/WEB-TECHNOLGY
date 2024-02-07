@@ -1,0 +1,33 @@
+.hdr{
+    border: solid 2px;
+    height: 100px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.nav{
+    border: solid 2px;
+    height: 100px;
+    width: 100vw;
+    background-color: orange;
+
+
+    
+}
+.bdy{
+    border: solid 2px;
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+}
+.add{
+    border: solid 2px;
+    height: 100px;
+    width: 100%;
+    background-color: forestgreen;
+}
+.social{
+    border: solid 2px;
+    height: 100px;
+    width: 100%;
+    background-color:gray
+}

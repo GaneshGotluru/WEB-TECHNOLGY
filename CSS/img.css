@@ -1,0 +1,61 @@
+.gg{
+    background-color: brown;
+    height: 300px;
+    width: 400px;
+    
+    display: inline-block;
+    justify-content: center;
+    
+}
+.igg{
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.igg1{
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+
+    display: inline-block;
+    
+}
+.cont{
+    border: solid 3px black;
+    height: 500px;
+    width: 500px;
+
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px 30px 30px;
+
+}
+.img{
+    height: 100px;
+    width: 100px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+/*.cl{
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cl1{
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+}
+*/

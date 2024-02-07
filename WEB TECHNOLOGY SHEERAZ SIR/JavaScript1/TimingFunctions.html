@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Timing Functions</h1>
+
+    <h3>setTimeout without Delay</h3>
+
+    <button onclick="setTimeout(demo())">
+        start
+
+
+        <!-- Without Delay -->
+    </button>
+
+
+
+    <h3>setTimeout with Delay</h3>
+
+    <button onclick="a=setTimeout(demo,2000)">
+        start
+        <!-- With Delay 2 sec -->
+    </button>
+
+
+
+    <h3> Clear Timeout</h3>
+    <h3>Stoping the excution</h3>
+    <button onclick="clearTimeout(a)">
+        stop
+    </button>
+
+
+
+    
+    <h3>setInterval</h3>
+
+    <button onclick="b=setInterval(demo,1000)">
+        start
+    </button>
+
+    <h3>clearInterval</h3>
+    <button onclick="clearInterval(b)">
+        Stoping
+    </button>
+
+    <h2>Printing numbers</h2>
+
+    <button onclick="g=setInterval(printnum,1000)">
+        Started
+    </button>
+    
+    <button onclick="clearInterval(g)">
+        Stoping
+    </button>
+    <button onclick="resetNum()">
+        Reset
+    </button>
+
+    <script src="./TimingFunctions.js"></script>
+</body>
+</html>

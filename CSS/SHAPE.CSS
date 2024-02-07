@@ -1,0 +1,77 @@
+*{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+.sqr{
+    border: solid 2px red;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.rect{
+    border: solid 2px orange;
+    height: 90px;
+    width: 150px;
+    background-color: orange;
+}
+.crcl{
+    border: solid 2px yellow;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.ovl{
+    border: solid 3px green;
+    height: 90px;
+    width: 150px;
+    background-color: green;
+    border-radius: 50%;
+}
+.tl{
+    border: solid 3px brown;
+    height: 0px;
+    width: 0px;
+    border-top: solid 100px  black;
+    border-right: solid 100px black ;
+    border-bottom: solid 100px yellowgreen;
+    border-left: solid 100px black;
+}
+.cc{
+    
+    border: solid 4px white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-top: solid 50px white;
+    border-right: solid 50px green ;
+    border-bottom: solid 50px yellow;
+    border-left: solid 50px orange;    
+    background-color: wheat;
+}
+.sri{
+    border: solid 2px red;
+    height: 100px;
+    width: 100px;
+    border-top: solid 100px red;
+    border-right: solid 100px red;
+    border-bottom: solid 100px red;
+    border-left: solid 100px red;
+}
+.cont{
+    color: white;
+    border: solid 3px yellowgreen;
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    overflow: scroll;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 60px 50px 8px wheat;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hdr{
+    border: solid 2px;
+    height: 100px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: antiquewhite;
+
+    
+
+}
+ul{
+    list-style-type: none;
+}
+.bg1{
+    position: relative;
+    bottom: 0px;
+}
+.pa{
+
+    border: solid 2px;
+    height: 100px;
+    width: 500px;
+    
+
+    position: absolute;
+
+}
+.add{
+    background: gray;
+    color: white;
+}

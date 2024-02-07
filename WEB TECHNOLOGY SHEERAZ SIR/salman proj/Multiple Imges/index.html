@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        img{
+            height: 400px;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multiple Images are Changing</h1>
+
+    <img src="imgss/1.jpg" alt="" onclick="changedImg()">
+
+   
+
+
+    <script>
+        let urls=['./imgss/2.jfif','./imgss/3.jfif','./imgss/4.jpg','./imgss/5.jpg','./imgss/6.jpg','./imgss/7.jpg','./imgss/8.jpg']
+    
+
+        let imgg=document.querySelector('img')
+        let changedImg = ()=>{
+        let random_index= Math.floor(Math.random()*5)
+        // console.log(random_index)
+        imgg.src=urls[random_index]
+        }
+
+
+
+
+
+
+
+
+        // let img=document.querySelector('img')
+        // let changeImage=()=>{
+        //     let random_index=Math.floor(Math.random()*5)
+        //     img.src=urls[random_index]
+        // }
+    </script>
+
+
+
+
+
+</body>
+</html>

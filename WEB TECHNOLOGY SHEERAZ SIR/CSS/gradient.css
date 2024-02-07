@@ -1,0 +1,31 @@
+.box{
+    border: solid 3px;
+    height: 200px;
+    width: 200px;
+}
+.con{
+    display: flex;
+    justify-content: space-evenly;
+}
+.b1{
+    background-image: linear-gradient(red,black,blue,white,orange,yellow);
+}
+.b2{
+    background-image: linear-gradient(to left,black,teal,red);
+}
+.b3{
+    background-image: linear-gradient(to top left ,blue,pink,black);
+}
+.b4{
+    background-image: radial-gradient(red,yellow,red);
+}
+.b5{
+    background: radial-gradient(circle at bottom,red 30%,yellow ,orangered 90%);
+}
+.b6{
+    background: linear-gradient(red,rgba(255, 0, 0, 0.1));
+}
+h2{
+    text-align: center;
+    opacity: 0.3;
+}

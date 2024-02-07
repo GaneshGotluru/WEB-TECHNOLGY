@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+}
+.hdr{
+    border: solid 2px;
+    height: 50px;
+    width: 100vw;
+    padding-top: ;
+    border-bottom-style: dashed;
+    background-color:rgb(224, 237, 237);
+    align-items: center;
+
+    position: fixed;
+    top: 0px;
+    
+    
+}
+.nav{
+    height: 100px;
+    width: 100vw;
+    border: solid 2px;
+    background-color:rgb(224, 237, 237);
+
+    position: absolute;
+    z-index: -1;
+
+}
+ul{
+    list-style-type: none;
+}
+
+.cont{
+    border: solid 2px;
+    
+
+   
+    left: 0px;
+}
+.m1{
+    border: solid 2px;
+    width: 100%;
+    
+
+    position: absolute;
+}
+.m2{
+    width: 100%;
+    
+}
+.maa{
+    position: relative;
+    bottom: 0px;
+}

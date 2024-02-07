@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bgimg img{
+    height: 550px;
+    width: 100%;
+}
+.mainhead{
+    color: white;
+    /* border: solid 2px red; */
+    height: 80px;
+    display: flex;
+}
+.head{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+.head1{
+    margin: auto;
+    
+    width: 60%;
+
+}
+.gg{
+    /* border: solid 2px red; */
+    height: 80px;
+    width: 100%;
+
+    position: absolute;
+    top: 0px;
+
+}
+ul{
+   
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.zmtimg{
+    /* color: white; */
+    /* border: solid 2px red;  */
+    /* background-color: orange; */
+    height: 100px;
+    width: 100%;
+
+    position: absolute;
+    top: 60px;
+
+    display: flex;
+    justify-content: center;
+}
+.imf1 img{
+    margin: auto;
+    /* border: solid 2px black; */
+    height: 100px;
+    width: 300px;
+}
+.sub{
+    display: flex; 
+    justify-content: center;
+}
+.txt{
+
+    color: white;
+    text-align: center;
+
+    position: absolute;
+    top: 180px;
+}
+.search{
+    /* background-color: orange; */
+    height: 50px;
+
+    position: absolute;
+    top: 300px;
+    left: 300px;
+
+    display: flex;
+    justify-content: center;
+
+}
+.two{
+    /* background-color: blueviolet; */
+    height: 50px;
+    width: 1000px;
+    display: flex;
+}
+.subtwo{
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-left: 10px; */
+}
+.subtwo img{
+    height: 50px;
+    width: 20px;
+}
+
+.subone{
+
+    background-color: white;
+    height: 50px;
+    width: 700px;
+
+    display: flex;
+}
+.subone img{
+    height: 50px;
+    width: 70px;
+}
+.subone input{
+    margin-top: 20px;
+    width: 400px;
+    top: 20px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}
+.twocont img{
+
+
+    margin: 20px;
+    border: solid 2px orange;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+.twocont{
+    position: relative;
+    /* top: 10px; */
+}
+.ss{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    height: 70px;
+    width: 330px;
+
+    position: absolute;
+    bottom: 7px;
+}
+.three{
+    padding-left: 200px;
+    /* display: flex; */
+}
+.thirdcont{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+.box img{
+    height: 300px;
+    width: 250px;
+    border: solid 2px;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.three1 a{
+    color: black;
+}
+.tt{
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(235, 148, 148, 0.408);
+    height: 70px;
+    width: 230px;
+
+    position: absolute;
+    bottom: 7px;
+}
+.fourth{
+    text-align: center;
+   
+}
+.hel{
+    /* margin: 10px; */
+  
+    
+    display: flex;
+    justify-content: center;
+}
+.char{
+    padding: 10px;
+    /* padding-: 20px; */
+    margin: 30px;
+    border: solid 1px;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 1px;
+
+   
+
+}
+.hel a{
+    color: black;
+}
+.five{
+    height: 550px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.panch{
+    width: 400px;
+    /* font-size: 20px; */
+   margin: 60px;
+}
+.panch img{
+    margin-top: 30px;
+    height: 500px;
+    width: 400px;
+}
+.panch1 input{
+    margin: 0px;
+}
+.det{
+    margin-top: 30px;
+}
+/* .det input{
+    height: 2;
+} */
+button{
+    background-color: lightcoral;
+    width: 70px;
+}
+.dnld{
+    margin-top: 20px;
+}
+.dnld img{
+    height: 50px;
+    width: 100px;
+}
+.six{
+    margin-top: 20px;
+    padding-left: 230px;
+}
+.see{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.se{
+    border: solid 1px black;
+    height: 30px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.see a{
+    color: black;
+}
+.lost{
+    padding-left: 30px;
+}
+.lost img{
+    height: 100px;
+    width: 200px;
+    /* background-color:  */
+}
+.ssse{
+    background-color: burlywood;
+    display: flex;
+    justify-content:flex-start;
+}
+.sss{
+    margin-top: 20px;
+    padding-left: 300px;
+    /* display: flex; */
+    /* justify-content: end; */
+}
+.ss button{
+    margin-top: 20px;
+    color: red;
+    background-color: orange;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.bos{
+    margin: 10px;
+    border: solid 1px;
+    height: 200px;
+    width: 100px;
+}
+.about a{
+    color: blueviolet;
+}
+
+/* ------------------------------- */
+.ma{
+    background-color: antiquewhite;
+}
+.hd{
+    padding-left: 20px;
+}
+.con{
+    
+    display: flex;
+    justify-content: center;
+}
+.cl{
+    margin: 10px;
+    /* border: solid 2px; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.cl img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.cl p{
+    padding-left: 60px;
+}
+.top{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.cll{
+    margin: 10px;
+    border: solid 2px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.cll img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.bs{
+    margin: 10px;
+    /* border: solid 2px; */
+    height: 200px;
+    width: 200px;
+}
+.bs img{
+    height: 200px;
+    width: 200px;
+}
+.rr{
+    display: flex;
+    justify-content: center;
+}

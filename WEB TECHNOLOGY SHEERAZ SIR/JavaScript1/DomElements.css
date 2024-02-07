@@ -1,0 +1,28 @@
+/* *{
+   
+} */
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: solid 2px;
+    height: 150px;
+    width: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img{
+    height: 150px;
+    width: 150px;
+    
+}
+table{
+    /* border: solid 2px; */
+    text-align: center;
+    height: 400px;
+    width: 200px;
+}

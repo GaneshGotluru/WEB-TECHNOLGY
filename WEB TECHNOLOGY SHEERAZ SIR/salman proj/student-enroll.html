@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" onsubmit="getDAta(event)">
+        <input type="text" placeholder="Enter Name">
+        
+        <button type="submit">Enroll</button>
+    </form>
+
+    <h1>All students Lists</h1>
+    <ul>
+        
+    </ul>
+
+    <script>
+        let students=[]
+        // console.log(students)
+        let ul=document.querySelector('ul')
+
+        // console.log(ul)
+
+        let  getDAta = (e)=>{
+
+            let li =document.createElement('li')
+            let name=e.target[0].value
+
+            students.push(name)
+            // console.log(students)
+            students.map((std)=>{
+                li.innerHTML=std
+                ul.appendChild(li)
+            })
+
+
+            event.preventDefault()
+        }
+
+
+    </script>
+</body>
+</html>

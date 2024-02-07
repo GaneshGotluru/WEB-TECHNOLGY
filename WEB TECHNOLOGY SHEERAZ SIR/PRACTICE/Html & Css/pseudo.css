@@ -1,0 +1,44 @@
+button{
+    height: 50px;
+    width: 200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 5s;
+}
+button:hover{
+    background: red;
+    color: yellow;
+    box-shadow: 5px 5px 5px orange;
+    transform: scale(1.4);
+    
+}
+
+a{
+    border: solid 2px;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: disc;
+    color: red;
+    list-style:circle;
+    list-style-position: outside;
+}

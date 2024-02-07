@@ -1,0 +1,59 @@
+.con{
+    border: solid 2px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+    animation-name: changeContent;
+    animation-duration: 5s;
+}
+
+@keyframes changeContent {
+    from{
+        background: red;
+        border-radius: 0px;
+
+
+    }
+    to{
+        background: blue;
+        border-radius: 50%;
+    }
+    
+}
+
+.sr{
+    border: solid 2px;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+
+    animation-name: rec;
+    animation-duration: 5s;
+}
+@keyframes rec {
+
+    from{
+        background: black;
+    }
+    to{
+        background-color: orange;
+      
+        width: 300px;
+    }
+    
+}
+
+.img{
+    border: solid 2px;
+    height: 200px;
+    width: 200px;
+
+    background-image: url("./img/20211211130510_IMG_2422.JPG");
+    animation-name: ig;
+    animation-duration: 5s;
+    
+}
+@keyframes identifier {
+    
+}
